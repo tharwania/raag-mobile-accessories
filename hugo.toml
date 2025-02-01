@@ -1,4 +1,4 @@
 baseURL = "https://tharwania.github.io/raag-mobile-accessories/"
 languageCode = "en-us"
 title = "Raag"
-theme = "ananke"
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke/v2"]

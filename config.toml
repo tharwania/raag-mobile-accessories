@@ -1,4 +1,1 @@
-theme = "ananke"
-[module]
-[[module.imports]]
-  path = "github.com/theNewDynamic/gohugo-theme-ananke"
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke/v2"]
