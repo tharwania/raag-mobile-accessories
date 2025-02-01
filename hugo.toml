@@ -2,17 +2,3 @@ baseURL = "https://tharwania.github.io/raag-mobile-accessories/"
 languageCode = "en-us"
 title = "Raag"
 theme = "ananke"
-[params]
-  description = "Quality mobile accessories at wholesale prices."
-  address = "Shop No. 308-B, Shah Jahan Market, Karachi"
-  google_maps_url = "https://www.google.com/maps/place/Shah+Jahan+Market,+Karachi"
-
-[[menu.main]]
-  name = "Products"
-  url = "/products/"
-  weight = 2
-
-[[menu.main]]
-  name = "Contact"
-  url = "/contact/"
-  weight = 5
