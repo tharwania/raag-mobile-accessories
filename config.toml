@@ -1,4 +1,4 @@
-theme = "agnes"
+theme = "ananke"
 [module]
 [[module.imports]]
-  path = "github.com/dchucks/agnes-hugo-theme"
+  path = "github.com/theNewDynamic/gohugo-theme-ananke"
