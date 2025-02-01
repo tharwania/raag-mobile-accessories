@@ -1,0 +1,23 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<p>{{ .Content }}</p>
+
+<div class="product-grid">
+    {{ range .Pages }}
+    <div class="product-card">
+        <a href="{{ .RelPermalink }}">
+            <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+            <h2>{{ .Title }}</h2>
+        </a>
+        <p>{{ .Params.description }}</p>
+        <p><strong>Price:</strong> {{ .Params.price }}</p>
+    </div>
+    {{ end }}
+</div>
+
+<style>
+    .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+    .product-card { border: 1px solid #ddd; padding: 10px; text-align: center; }
+    .product-card img { width: 100%; height: auto; }
+</style>
+{{ end }}
